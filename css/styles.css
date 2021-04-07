@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Ballet&display=swap');
+
+/*selector de elemento*/
+h3 {
+    font-family:cursive;
+    color:sienna;
+    font-size: 40px;
+    border: solid 2px yellow;
+    background:powderblue;
+}
+
+/*selector de elemento*/
+h2 {
+    font-family:cursive;
+    color:sienna;
+    font-size: 20px;
+    }
+
+
+.titulos {
+    font-family:cursive;
+    color:sienna;
+    font-size: 40px;
+    border: solid 2px red;
+    background:powderblue;
+}
+
+/*Selector descendente*/
+p span  {
+    font-weight: bold;
+    font-style: italic;
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+/*Selector descendente*/
+div span {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/*Selector de clase*/
+.hola-mundo {
+    color:red;
+    
+}
+
+/*Selector por id*/
+#hola-mundo-especial {
+    color: rgb(9, 255, 0);
+    font-weight: bold;
+}
